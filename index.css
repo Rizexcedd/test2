@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#landing-page {
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(./img/internship-rendi-photo-backend.png);
+}
+.welcome-text {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    color: white;
+    transform: scale(.8);
+}
+
+.iconlogo {
+    display: none;
+}
+
+ul.nav {
+    position: sticky;
+    top: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+.nav > li {
+    display: inline-block;
+    margin: auto;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+.nav > li:hover {
+    background-color:rgb(90, 137, 224);
+}
+.nav > li > a {
+    padding: 1em 2em;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+.nav > li >a:hover {
+    color: aquamarine;
+}
+#about-me {
+    padding: 5em 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+.section-introduction1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.img-icon1 {
+    max-width: 15em;
+}
+.content-perkenalan1 {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: center;
+}
+.section-introduction {
+    width: 48%;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 5em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.img-icon {
+    max-width: 10em;
+}
+.content-perkenalan {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: center;
+}
+#portofolio {
+    width: 100%;
+    padding: 2.1em 0;
+    background-image: url(./img/bckround3.jpg);
+    background-size: contain;
+}
+.title-portofolio {
+    text-decoration: underline white;
+    text-align: center;
+    padding: 1.1em 0;
+    color: white;
+}
+.container {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.img-portofolio {
+    max-width: 400px;
+    display: inline-block;
+    width: 90%;
+    vertical-align: middle;
+    margin: 0;
+    margin-bottom: 2em;
+    padding: 2em;
+}
+button {
+    border-color: #202422;
+    border-radius: 20px;
+}
+#contact-us {
+    vertical-align: top;
+    background-image: url(./img/bckround.jpg);
+    background-size: cover;
+}
+.title-contact-us {
+    text-decoration: underline white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    /* padding: 0.7em 0; */
+    padding-top: 16px;
+    color: white;
+}
+.form-contact-us {
+    width: 48%;
+    display: inline-block;
+    /* vertical-align: top; */
+    text-align: center;
+   margin: 5em 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.input {
+    width: 85%;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+.input > label {
+    display: block;
+    font-size: 1.2em;
+    color: white;
+}
+.input > input {
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+.input > textarea {
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+.btn-kirim {
+    width: 85%;
+    margin: 1em 0;
+    border-radius: 2em;
+    background-color: rgb(52, 54, 54);
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5em 0;
+
+}
+.contact-info {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 5em 0;
+}
+.non-desktop {
+    display: none;
+    font-size: 700;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.contact-info > div {
+    display: block;
+}
+.contact-icon-bundler {
+    display: inline-block;
+    min-width: 300px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.contact-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    margin: 2em;
+}
+.contact-desktop {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2em;
+    color: white;
+}
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1.5em 0;
+    color: white;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
